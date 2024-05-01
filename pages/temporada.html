@@ -7,35 +7,85 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/estilos.css">
         <script src="https://kit.fontawesome.com/d36574434b.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <header class="header">
+        <header class="">
             <div class="divLogo">
                 <img class="logo" src="../assets/img/LOGO CAMPERA.png" alt="Logo Tienda de Ropa 2 Me Brand">
             </div>
             
-            <nav class="navBar">
-                <ul class="divNav">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./catalogo.html">Catálogo</a></li>
-                    <li><a href="./temporada.html">Temporada</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-
-                    </li>
-                </ul>
-              
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body "data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/index.html"></a>
+                    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/temporada.html">Temporada</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Remeras</a></li>
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Pantalones</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Accesorios</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                      </li>
+                     
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
-            <h1>Temporada</h1>
+            <section class="temporada-content">
+                <h1>Temporada Verano 2024</h1>
+                <h3>¡Prepárate para un verano lleno de estilo y frescura con 2 Me Brand!</h3>
+                <p>Esta temporada, nos emociona presentarte nuestra colección más vibrante y versátil hasta la fecha, diseñada especialmente para los hombres que buscan destacar con un look casual y sofisticado bajo el sol ardiente del verano.
+
+                    Desde las calles de la ciudad hasta las arenas de la playa, nuestras prendas están confeccionadas con los materiales más ligeros y transpirables, garantizando comodidad y estilo en cada paso que des. Nuestros estampados inspirados en la naturaleza y los tonos refrescantes añaden un toque de vitalidad a cualquier conjunto, mientras que nuestros cortes modernos y ajustados te mantendrán a la moda en todo momento.
+                    
+                    Ya sea que estés planeando una escapada tropical o simplemente disfrutando del buen tiempo en la ciudad, tenemos todo lo que necesitas para lucir impecable en cualquier ocasión. Desde camisetas frescas y polos elegantes hasta shorts cómodos y trajes de baño a la última moda, nuestra colección de verano tiene algo para todos los gustos y estilos.
+                    
+                    Además, no te pierdas nuestra línea de accesorios, que incluye gafas de sol, sombreros y bolsos, diseñados para complementar perfectamente tu look veraniego y añadir un toque de estilo adicional a tus outfits.
+                    
+                    En 2 Me Brand, creemos que el verano es la época perfecta para experimentar con tu estilo y dejar que tu personalidad brille. Así que adelante, atrévete a ser audaz, a ser auténtico, a ser tú mismo con nuestra colección de verano 2024.
+                    
+                    Visita nuestra tienda online o acércate a nuestras tiendas para descubrir todas las novedades y prepararte para un verano inolvidable con 2 Me Brand.
+                    
+                    </p>
+            </section>
+            
             <section class="tarjetaTemporada">
-                <img cass="tarjetaT1" src="../assets/img/imagen_modelo_ia_3.jpeg" alt="imagen modelo ropa">
+                <article>
+                    <img cass="tarjetaT1" src="../assets/img/imagen_modelo_ia_3.jpeg" alt="imagen modelo ropa">
                     <h2>Bermuda Ananá</h2>
                     <h3>$ 25.900</h3>
-                <img class="tarjetaT2" src="../assets/img/imagen_modelo_ia_4.jpeg" alt="imagen modelo ropa masculina">
+                </article>
+                <article>
+                    <img class="tarjetaT2" src="../assets/img/imagen_modelo_ia_4.jpeg" alt="imagen modelo ropa masculina">
                     <h2>Bermuda Friza</h2>
                     <h3>$ 19.800</h3>
+                </article>
+                
 
             </section>
 
@@ -55,6 +105,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 
 </html>

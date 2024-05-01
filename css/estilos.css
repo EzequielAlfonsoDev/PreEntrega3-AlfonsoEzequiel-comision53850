@@ -19,6 +19,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Index */
+
 .divLogo {
     display: flex;
     justify-content: center;
@@ -144,6 +146,8 @@ ul li {
     font-weight: 700;
     margin: 40px 40px;
 }
+
+
     
 .tarjeta {
     display: grid;
@@ -177,13 +181,17 @@ ul li {
     
 }
 
+/* Temporada */
+
 .tarjetaTemporada {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    width: 100vw ;
+
+   
     
     grid-gap: 10px;
-    margin: 10px 10px;
-    width: 100%;
+    
+   
     object-fit: cover;
 }
 
@@ -198,6 +206,67 @@ ul li {
 }
 
 
-.tarhetaT1 h2 {
+.tarjetaT1 h2 {
     text-align: center;
+
+}
+
+.tarjetaTemporada p{
+    text-align: center;
+    margin: 10px 10px;
+
+}
+
+/* Nosotros */
+
+.text-content {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.text-content p {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.ubicación-content h2 {
+    text-align: center;
+}
+
+.maps {
+    margin: 20px 40%
+}
+
+.maps iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.temporada-content h1 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.temporada-content h3 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.temporada-content p {
+    text-align: center;
+    margin: auto;
+}
+
+/* Contacto */
+
+.formulario-contacto h1 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+/* Navbar Responsive New */
+
+
+.navbar {
+    justify-content: flex-end;
 }

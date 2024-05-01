@@ -10,42 +10,79 @@
         <script src="https://kit.fontawesome.com/d36574434b.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header class="header">
+        <header class="">
             <div class="divLogo">
                 <img class="logo" src="../assets/img/LOGO CAMPERA.png" alt="Logo Tienda de Ropa 2 Me Brand">
             </div>
             
-            <nav class="navBar">
-                <ul class="divNav">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./catalogo.html">Catálogo</a></li>
-                    <li><a href="./temporada.html">Temporada</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-
-                    </li>
-                </ul>
-              
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body "data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/index.html"></a>
+                    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/temporada.html">Temporada</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Remeras</a></li>
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Pantalones</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="/pages/catalogo.html">Accesorios</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                      </li>
+                     
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
-            <h1>Contacto</h1>
+            <section class="formulario-contacto">
+                <h1>Contacto</h1>
             <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
                 </div>
+
+                <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                  </div>
+
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="EjemploComentario" class="form-label">Mensaje</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
+            </section>
+            
 
 
         </main>
