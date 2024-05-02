@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,GAAG",
+"sources": ["../../scss/layouts/catalogo.scss"],
+"names": [],
+"file": "catalogo.css"
+}
