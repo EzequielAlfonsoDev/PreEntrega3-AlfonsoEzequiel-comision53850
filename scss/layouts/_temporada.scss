@@ -1,0 +1,33 @@
+.tarjetaTemporada {
+    display: flex;
+    width: 100vw ;
+
+   
+    
+    grid-gap: 10px;
+    
+   
+    object-fit: cover;
+}
+
+.tarjetaT1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.tarjetaT2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.tarjetaT1 h2 {
+    text-align: center;
+
+}
+
+.tarjetaTemporada p{
+    text-align: center;
+    margin: 10px 10px;
+
+}

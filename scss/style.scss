@@ -1,15 +1,15 @@
 
-@import 'base/vars'
-@import 'base/reset'
-@import 'components/header'
-@import 'components/navbar'
-@import 'components/footer'
-@import 'components/button'
-@import 'layouts/index.scss'
-@import 'layouts/catalogo.scss'
-@import 'layouts/contacto.scss'
-@import 'layouts/nosotros.scss'
-@import 'layouts/temporada.scss'
+@import 'base/vars';
+@import 'base/reset';
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/button';
+@import 'layouts/index.scss';
+@import 'layouts/catalogo.scss';
+@import 'layouts/contacto.scss';
+@import 'layouts/nosotros.scss';
+@import 'layouts/temporada.scss';
 
 
 
@@ -23,25 +23,8 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,200 & display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: montserrat, sans-serif;
 
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* Index */
 
@@ -66,227 +49,23 @@ body {
     
 
 
-.navBar {
-    display: flex;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-weight: 100;
-
-    
-    background-color: #282828;
-}
-
-ul li {
-    display: inline-block;
-    padding: 10px;
-    /* margin-top: 25px; */
-   
-}
-
-.divNav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.divNav li a {
-    color: white;
-    font-size: 20px;
-
-    
-}
-
-.divNav li a:hover {
-    border: #000000;
-    background-color: #dcd9d9;
-    color: white;
-    border-radius: 5px;
-    
-}
 
 
 
-.imagenPortada img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-    
-    
-
-}
-
-.footerMain {
-    background-color: #282828;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-logo img {
-    width: 100px;
-}
-
-.footer-links a {
-    text-decoration: none;
-    color: #fff;
-    margin-right: 20px;
-}
-
-.footerInfo {
-    text-align: right;
-    margin: 5px 0;
-    
-}
-
-.footerInfo a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.encabezadoPrincipal {
-    text-align: center;
-}
-
-.encabezadoPrincipal h1 {
-    font-size: 40px;
-    font-weight: 700;
-    margin: 40px 40px;
-}
-
-.encabezadoPrincipal h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 40px 40px;
-}
 
 
-    
-.tarjeta {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    grid-gap: 10px;
-    margin: 10px 10px;
-    width: 100%;
-    object-fit: cover;
-}
 
-.tarjeta img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.tarjeta1:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-    
- .tarjeta2:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.contenidoAdicional {
-    text-align: center;
-    margin: 10px 10px;
-    
-}
 
 /* Temporada */
 
-.tarjetaTemporada {
-    display: flex;
-    width: 100vw ;
 
-   
-    
-    grid-gap: 10px;
-    
-   
-    object-fit: cover;
-}
-
-.tarjetaT1:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.tarjetaT2:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-
-.tarjetaT1 h2 {
-    text-align: center;
-
-}
-
-.tarjetaTemporada p{
-    text-align: center;
-    margin: 10px 10px;
-
-}
 
 /* Nosotros */
 
-.text-content {
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.text-content p {
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.ubicación-content h2 {
-    text-align: center;
-}
-
-.maps {
-    margin: 20px 40%
-}
-
-.maps iframe {
-    width: 100%;
-    height: 300px;
-}
-
-.temporada-content h1 {
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.temporada-content h3 {
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.temporada-content p {
-    text-align: center;
-    margin: auto;
-}
 
 /* Contacto */
 
-.formulario-contacto h1 {
-    text-align: center;
-    margin: 10px 10px;
-}
 
 /* Navbar Responsive New */
 

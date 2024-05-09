@@ -34,7 +34,7 @@ scss/style.scss:3
 /Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
 /Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
-body:before {
+/* body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...ort 'base/vars'\": expected selector or at-rule, was \"@import 'base/r...\"\A         on line 3 of scss/style.scss\A \A 1: \A 2: @import 'base/vars'\A 3: @import 'base/reset'\A 4: @import 'components/header'\A 5: @import 'components/navbar'\A 6: @import 'components/footer'\A 7: @import 'components/button'\A 8: @import 'layouts/index.scss'"; }
+  content: "Error: Invalid CSS after \"...ort 'base/vars'\": expected selector or at-rule, was \"@import 'base/r...\"\A         on line 3 of scss/style.scss\A \A 1: \A 2: @import 'base/vars'\A 3: @import 'base/reset'\A 4: @import 'components/header'\A 5: @import 'components/navbar'\A 6: @import 'components/footer'\A 7: @import 'components/button'\A 8: @import 'layouts/index.scss'"; } */

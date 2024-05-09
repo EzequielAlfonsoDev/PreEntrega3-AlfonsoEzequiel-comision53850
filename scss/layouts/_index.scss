@@ -1,0 +1,59 @@
+.imagenPortada img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+    
+
+}
+
+.encabezadoPrincipal {
+    text-align: center;
+}
+
+.encabezadoPrincipal h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px 40px;
+}
+
+.encabezadoPrincipal h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 40px;
+}
+
+
+    
+.tarjeta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 10px;
+    margin: 10px 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tarjeta1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+    
+ .tarjeta2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contenidoAdicional {
+    text-align: center;
+    margin: 10px 10px;
+    
+}
